@@ -31,3 +31,8 @@ return [...kittens, kitten]
   //return moreKittens
 }
 appendKitten(gretchen)
+
+function prependKitten (kitten) {
+  return [kitten, ...kittens]
+}
+prependKitten(arnold)
