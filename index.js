@@ -5,3 +5,4 @@ function destructivelyAppendKitten (kitten) {
   push (kittens, kitten)
   return kittens
 }
+destructivelyAppendKitten(Bill)
