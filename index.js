@@ -36,3 +36,8 @@ function prependKitten (kitten) {
   return [kitten, ...kittens]
 }
 prependKitten(arnold)
+
+function removeLastKitten () {
+  return kittens.slice(0,2)
+}
+removeLastKitten()
